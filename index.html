@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> iChat - Let's make fun with your freinds</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button"></script>
+
+
+    <script defer src="Js/client.js"></script>
+</head>
+
+<body>
+
+    <div class="darkMode"> <img src="night-mode.png" alt="Not Found"></div>
+
+    <h1> Welcome to iChat</h1>
+    <nav>
+        <img class="logo" src="logo.png" alt="Not found">
+    </nav>
+
+
+    <div class="container">
+        <!-- <div class="message right"> Harry : Hay how are you ?</div>
+        <div class="message left"> Ayan : I am fine and what about you ?</div> -->
+        <!-- <div class="timeRight">00:00</div> -->
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <div class="emoji-Picker">
+                
+                <img class="emoji-svg" src="emoji.svg" alt="Not Found">
+
+            </div>
+
+            <input type="text" name="messageInp" id="messageInp">
+            <button class="btn" type="submit">Send</button>
+        </form>
+
+
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@4.6.2/dist/index.min.js"></script>
+<!-- <script src="js/script.js"></script> -->
+
+
+</html>

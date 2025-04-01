@@ -1,0 +1,103 @@
+.logo {
+    display: block;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+}
+
+body {
+    background-color: rgb(95, 198, 245);
+}
+
+.darkMode img {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    left: 95%;
+}
+
+.dark-theme {
+    background-color: rgb(102, 95, 95);
+    color: white;
+    /* Ensures text is visible */
+}
+
+
+
+.container {
+    max-width: 995px;
+    background-color: rgb(45, 250, 199);
+    margin: auto;
+    height: 65vh;
+    border-radius: 3px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.message {
+    background-color: grey;
+    width: 21%;
+    padding: 12px;
+    margin: 20px 7px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.emoji-Picker {
+    position: relative;
+    right: 47%;
+    top: 36px;
+}
+
+.emoji-svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+
+}
+
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+    color: black
+}
+
+
+
+#send-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+
+}
+
+.time {
+    position: relative;
+    left: 80%;
+    top: 30%;
+    margin-top: 5px;
+    font-size: 12px;
+    color: rgb(24, 22, 22);
+}
+
+.btn {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 34px;
+}
+
+#messageInp {
+    width: 92%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 35px;
+}
